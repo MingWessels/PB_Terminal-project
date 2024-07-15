@@ -92,7 +92,7 @@ class Baby {
   }
 }
 
-// Erstelle 3 new Babys: 
+// Erstelle 3 Instanzen der Klasse Babys: 
 const mia = new Baby('Mia', 20, 20, 20, 5);
 const emma = new Baby('Emma', 30, 20, 10, 15);
 const paul = new Baby('Paul', 30, 30, 40, 40);
@@ -136,16 +136,16 @@ while (true) {
     divider();
     console.log(chalk.blue(`Runde ${step}:\n`));
     console.log('Was möchtest du tun?');
-    const actions = ['füttern', 'schlafen legen', 'spielen', 'Windel wechseln'];
+    const actions = ['füttern', 'spielen', 'schlafen legen', 'Windel wechseln'];
     const indexActions = readlineSync.keyInSelect(actions, 'Wähle aus der Liste', { cancel: 'abbrechen' });
     console.clear();
 
     if (indexActions === 0) {
       selectedBaby.feed();
     } else if (indexActions === 1) {
-      selectedBaby.sleep();
-    } else if (indexActions === 2) {
       selectedBaby.play();
+    } else if (indexActions === 2) {
+      selectedBaby.sleep();
     } else if (indexActions === 3) {
       selectedBaby.changeDiaper();
     } else {
