@@ -10,7 +10,7 @@
 * Ziel ist es, das ausgewählte Baby zum Lachen zu bringen.
 * Es kann zwischen 3 Babys mit unterschiedlichen Anfangswerten ausgewählt werden.
 * Jedes Baby hat eine bestimmte Anzahl an Energie-, Spaß-, Müdigkeits- und Windelpunkten.
-* Das Spiel hat keine feste Rundenanzahl, es wird beendet, wenn der Spieler gewinnt oder verliert.
+* Das Spiel hat keine feste Rundenanzahl. Es wird beendet, wenn der Spieler gewinnt oder verliert.
 
 ### Aktionen
 
@@ -65,7 +65,7 @@
 
 
 ## Installation
-1) Klone die Datei in GitHub: https://github.com/MingWessels/PB_Terminal-project
+1) Klone die Datei aus GitHub: https://github.com/MingWessels/PB_Terminal-project
 2) Öffne die Datei index.js in VS Code
 3) Öffne das Terminal in VS Code
 4) Installiere readline-sync mit dem Befehl npm install readline-sync
